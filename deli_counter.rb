@@ -31,16 +31,11 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line.shift}."
-    # line # (don't think I need this)
+    line # (don't think I need this)
   end
 end
 
 
-if deliq.size == 0
-  puts "There is nobody waiting to be served!"
-else
-  puts "Currently serving #{deliq.shift}."
-  # line # (don't think I need this)
-end
+
 
 deliq = ["Ada", "Grace", "Kent"]
