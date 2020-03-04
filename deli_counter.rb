@@ -31,6 +31,8 @@ def now_serving(line)
     puts "There is nobody waiting to be served!".
   else
     puts "Currently serving #{line.shift}."
-    line # (don't think I need this)
+    # line # (don't think I need this)
   end
 end
+
+deliq = ["Ada", "Grace", "Kent"]
