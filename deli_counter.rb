@@ -10,6 +10,18 @@ def line(line)
   end
 end
 
+
+
+def line(line)
+  if line.size == 0
+    puts "The line is currently empty."
+  else
+    puts "The line is currently: #{line.join}"
+  end
+end
+
+
+
 def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.size} in line."
