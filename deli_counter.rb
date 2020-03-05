@@ -13,7 +13,7 @@ def line(line)
 end
 
 
-# syntax (short): 
+# syntax (short):
 # array.each_with_index {|array_item, index| code to execute using arg}
 
 
