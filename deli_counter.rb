@@ -24,12 +24,3 @@ def now_serving(line)
     line # (don't think I need this)
   end
 end
-
-
-# line.each_with_index do |name, index|
-#   name_index.push("#{index+1}. #{name}")
-# end
-
-# line.each_with_index {|name, index| name_index.push("#{index+1}. #{name}")}
-
-# deliq = ["Ada", "Grace", "Kent"]
