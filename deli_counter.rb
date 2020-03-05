@@ -5,16 +5,17 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty."
   else
-    line.each_with_index do |name, index|
-      name_index.push("#{index+1}. #{name}")
-    end
+    line.each_with_index {|name, index| name_index.push("#{index+1}. #{name}")}
     puts "The line is currently: #{name_index.join(" ")}"
   end
 end
 
+# line.each_with_index do |name, index|
+#   name_index.push("#{index+1}. #{name}")
+# end
 
-# syntax (short):
-# array.each_with_index {|array_item, index| code to execute using arg}
+# line.each_with_index {|name, index| name_index.push("#{index+1}. #{name}")}
+
 
 
 def take_a_number(line, name)
