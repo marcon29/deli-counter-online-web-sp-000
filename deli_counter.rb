@@ -10,14 +10,6 @@ def line(line)
   end
 end
 
-# line.each_with_index do |name, index|
-#   name_index.push("#{index+1}. #{name}")
-# end
-
-# line.each_with_index {|name, index| name_index.push("#{index+1}. #{name}")}
-
-
-
 def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.size} in line."
@@ -34,6 +26,10 @@ def now_serving(line)
 end
 
 
+# line.each_with_index do |name, index|
+#   name_index.push("#{index+1}. #{name}")
+# end
 
+# line.each_with_index {|name, index| name_index.push("#{index+1}. #{name}")}
 
-deliq = ["Ada", "Grace", "Kent"]
+# deliq = ["Ada", "Grace", "Kent"]
